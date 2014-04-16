@@ -10,5 +10,12 @@ public class StringUtil {
     return !isNullOrEmpty(str);
   }
   
+  public static boolean isEmpty(String str) {
+    return isNullOrEmpty(str);
+  }
+  
+  public static boolean isNotEmpty(String str) {
+    return isNotNullNorEmpty(str);
+  }
   
 }
